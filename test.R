@@ -28,3 +28,10 @@ rbind(dfm1, dfm2, by="T_name")  #오류 발생
 merge(dfm1, dfm2, by="T_name")  
 subset(dfm1, dfm2, by="T_name") #오류 발생 
 #비어있는 칸은 재활용규칙에 의해서 반복적으로 입력됨
+
+x<-c(1:5)
+y<-seq(10,50,10)
+xy<-rbind(x,y)
+
+x<-c(1,2,3,NA)
+mean(x)
