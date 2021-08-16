@@ -33,5 +33,14 @@ x<-c(1:5)
 y<-seq(10,50,10)
 xy<-rbind(x,y)
 
-x<-c(1,2,3,NA)
-mean(x)
+x<-1:100
+sum(x>50)
+
+f <- function(x,a) return((x-a)^2)
+f(1:2,3)
+
+a<-c(1,10)
+b<-seq(1,10,1)
+c<-1:10
+d<-seq(10,100,10) / 10
+
