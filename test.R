@@ -34,6 +34,8 @@ xy<-rbind(x,y)
 
 x<-1:100
 sum(x>50)
+# 오로지 sum()함수의 기준에 근거 해서만 출력됨
+# 50이 출력됨
 
 f <- function(x,a) return((x-a)^2)
 f(1:2,3)
