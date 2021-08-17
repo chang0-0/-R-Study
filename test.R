@@ -6,7 +6,6 @@ cust_mart_2 <- data.frame( cust_id = c("c05", "c06", "c07"), last_name = c("Bae"
 
 cust_mart_12 <- rbind(cust_mart_1, cust_mart_2)
 
-
 cust_mart_3 <- data.frame( cust_id = c("c08", "c09"), last_name = c("Lee", "Park"), gender = c("F", "M"))
 
 cust_mart_4 <- data.frame( cust_id = c("c10", "c11"), first_name = c("Kildong", "Yongpal"))
