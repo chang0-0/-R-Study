@@ -7,8 +7,13 @@ aqm <- melt(airquality, id=c("Month", "Day"), na.rm=T)
 
 # cast(): 요약 형태로 만드는 함수(데이터를 원하느 형태로 계산 또는 변형 시켜줌)
 
-a1 <- cast(aqm, Day ~ Month ~ variable)
+a1 <- cast(aqm, Day ~ Month)
 a2 <- cast(aqm, Day + Month ~ variable)
+
+str(airquality)
+
+airquality$Day
+airquality[[2]]
 
 
 #a1 출력 결과
@@ -89,6 +94,7 @@ a2 <- cast(aqm, Day + Month ~ variable)
 # 13    3     7    32     236  9.2   81
 # 14    3     8    16      77  7.4   82
 # 15    3     9    73     183  2.8   93
+
 
 
 
