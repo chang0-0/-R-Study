@@ -1,4 +1,6 @@
-install.packages("college")
+install.packages("College")
+print(College)
+
 
 
 
