@@ -11,7 +11,7 @@ table(Vehicle$Class)
 head(Vehicle)
 summary(Vehicle)
 
-summary(lm(Class ~ Comp, data=Vehicle))
+summary(lm(Circ ~ Comp, data=Vehicle))
 
 # Call:
 # lm(formula = Comp ~ Circ, data = Vehicle)

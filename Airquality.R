@@ -15,6 +15,10 @@ str(airquality)
 airquality$Day
 airquality[[2]]
 
+head(aqm)
+
+
+
 
 #a1 출력 결과
 # , , variable = Ozone
