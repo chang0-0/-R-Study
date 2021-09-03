@@ -40,13 +40,6 @@ sum(x>50)
 f <- function(x,a) return((x-a)^2)
 f(1:2,3)
 
-a<-c(1,10)
-b<-seq(1,10,1)
-c<-1:10
-d<-seq(10,100,10) / 10
+fruit <- c(5, 10, 1, 2)
+names(fruit) <- c("orange", "banana", "apple", "peach")
 
-x <- c(1,2,3)
-y <- c(2,x,3)
-a <- x + y
-
-a <- 0/0

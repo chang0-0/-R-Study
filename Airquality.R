@@ -17,7 +17,16 @@ airquality[[2]]
 
 head(aqm)
 
+summary(aqm)
 
+# > summary(aqm)
+#      Month            Day           variable       value
+#  Min.   :5.000   Min.   : 1.00   Ozone  :116   Min.   :  1.00
+#  1st Qu.:6.000   1st Qu.: 8.00   Solar.R:146   1st Qu.: 13.00
+#  Median :7.000   Median :16.00   Wind   :153   Median : 66.00
+#  Mean   :7.044   Mean   :15.83   Temp   :153   Mean   : 80.06
+#  3rd Qu.:8.000   3rd Qu.:23.00                 3rd Qu.: 91.00
+#  Max.   :9.000   Max.   :31.00                 Max.   :334.00
 
 
 #a1 출력 결과
