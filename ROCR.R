@@ -13,3 +13,5 @@ x.model <- cforest(Kyphosis~Age+Number+Start, data=x.train)
 x.evaluate$prediction <- predict(x.model, newdata=x.evaluate)
 x.evaluate$correct <- x.evaluate$prediction == x.evaluate$Kyphosis
 print(paste("% of predicted classification correct", mean(x.evaluate$correct)))
+
+

@@ -29,6 +29,32 @@ summary(aqm)
 #  Max.   :9.000   Max.   :31.00                 Max.   :334.00
 
 
+head(airquality)
+
+summary(lm(formula = Ozone ~ Solar.R + Wind + Temp, data=airquality))
+
+Call:
+lm(formula = Ozone ~ Solar.R + Wind + Temp, data = airquality)
+
+Residuals:
+    Min      1Q  Median      3Q     Max
+-40.485 -14.219  -3.551  10.097  95.619
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)
+(Intercept) -64.34208   23.05472  -2.791  0.00623 **
+Solar.R       0.05982    0.02319   2.580  0.01124 *  
+Wind         -3.33359    0.65441  -5.094 1.52e-06 ***
+Temp          1.65209    0.25353   6.516 2.42e-09 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 21.18 on 107 degrees of freedom
+  ()
+Multiple R-squared:  0.6059,    Adjusted R-squared:  0.5948
+F-statistic: 54.83 on 3 and 107 DF,  p-value: < 2.2e-16
+
+
 #a1 출력 결과
 # , , variable = Ozone
 
@@ -107,6 +133,7 @@ summary(aqm)
 # 13    3     7    32     236  9.2   81
 # 14    3     8    16      77  7.4   82
 # 15    3     9    73     183  2.8   93
+
 
 
 
